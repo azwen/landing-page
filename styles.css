@@ -2,6 +2,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0
 }
 
 .header {
@@ -10,7 +12,7 @@ body {
     font-size: 24px;
     display:flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
 }
 
 .links {
@@ -22,8 +24,8 @@ body {
 
 .box {
     border: 1px solid blue;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background:transparent;
     border-radius: 25px;
 }
@@ -42,14 +44,25 @@ body {
 
 }
 
-.stock {
-    width: 200;
+ /* .stock {
+    width: 100px;
     height: auto;
-    display: flex;
-    margin: 0
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+} */
+
+
+img {
+    width: 200px;
+    height: auto;
 }
 
 .toptext {
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
 }
