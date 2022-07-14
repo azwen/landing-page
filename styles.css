@@ -8,3 +8,10 @@
     list-style-type: none;
     font-size: 18px;
 }
+
+.box {
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+    background:transparent;
+}
