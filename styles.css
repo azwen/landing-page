@@ -1,12 +1,23 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     background-color: #1f2937;
     color: white;
     font-size: 24px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center
 }
 
 .links {
     list-style-type: none;
     font-size: 18px;
+    display: flex;
+    gap: 24px
 }
 
 .box {
@@ -16,3 +27,4 @@
     background:transparent;
     border-radius: 25px;
 }
+
