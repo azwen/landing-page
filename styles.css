@@ -29,6 +29,9 @@ body {
     display:flex;
     background-color: #1f2937;
     color: white;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .signup {
@@ -40,17 +43,26 @@ body {
 }
 
 img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     height: auto;
+    flex-grow: 1 0;
 }
 
 .toptext {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: baseline;
     padding: 30px;
-    margin-left: 200px;
-    margin-bottom: 100px;
+    text-align: left;
+    flex-basis: 400px;
+    margin-right: 200px
+}
+
+h1 {
+    margin: 0;
 }
 
 /* WELCOME TOP PAGE END */
