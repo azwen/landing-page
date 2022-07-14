@@ -29,9 +29,11 @@ body {
     display:flex;
     background-color: #1f2937;
     color: white;
-    margin: 0;
+    padding: 50px;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
+
 }
 
 .signup {
@@ -46,9 +48,9 @@ img {
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 400px;
     height: auto;
-    flex-grow: 1 0;
+    padding: 30px;
 }
 
 .toptext {
@@ -58,10 +60,11 @@ img {
     padding: 30px;
     text-align: left;
     flex-basis: 400px;
-    margin-right: 200px
 }
 
 h1 {
+    font-weight: 900;
+    font-size: 48px;
     margin: 0;
 }
 
