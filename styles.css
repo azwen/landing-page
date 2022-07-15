@@ -70,6 +70,8 @@ h1 {
 
 /* WELCOME TOP PAGE END */
 
+/* SOME RANDOM INFO PAGE
+ */
 .middle {
     display:flex;
     justify-content: center;
@@ -80,11 +82,12 @@ h1 {
 h2 {
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937
+    color: #1f2937;
+    text-align: center;
 }
 
-
 .box {
+
     border: 3px solid #3882f6;
     width: 150px;
     height: 150px;
@@ -92,6 +95,10 @@ h2 {
     border-radius: 14px;
 }
 
-h2 {
-    text-align: center;
+.text {
+    margin-top: 160px;
+    padding: 5px;
 }
+
+/* SOME RANDOM INFO PAGE
+ */
