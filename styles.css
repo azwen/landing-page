@@ -87,7 +87,6 @@ h2 {
 }
 
 .box {
-
     border: 3px solid #3882f6;
     width: 150px;
     height: 150px;
@@ -96,9 +95,22 @@ h2 {
 }
 
 .text {
-    margin-top: 160px;
+    max-width: 200px;
     padding: 5px;
+
 }
 
 /* SOME RANDOM INFO PAGE
  */
+
+ .bottom {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+
+ }
